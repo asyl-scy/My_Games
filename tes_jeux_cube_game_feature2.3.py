@@ -1,3 +1,4 @@
+
 import pygame
 from pygame.locals import*
 import sys
@@ -5,35 +6,10 @@ import random
 import numpy as np
 
 """
-from pygame.locals import*
-
-pygame.init()
-fenetre = pygame.display.set_mode((300,300))
-
-pygame.mixer.music.load('son.wav')
-pygame.mixer.music.play()
 
 #pour mettre de la musique!
 #on va mettre VitMaster de sakuzyo!!!
 
-j'ai enlevé dans tes_jeux_cube_game tout ce qui est inhérent à l'image, pensant à une erreur
-
-modification= faire en sorte que le dash ne face pas perdre (en faisant en sorte par exemple qu'il fait varier la vitesse et nonepa
-la position) /fait
-
-Metter une image
-
-faire bouger le gaol /fait
-
-modif 4 changer le rectangle en autre chose (un perso pixelisé par ex)
-
-modif ultime= faire en sorte qu'il y ait pls personnage et/ou plusieurs goals
-
-modif ultime optionnel= obstacles.
-
-edit= faire une fonction pour varier au début la position du goal puis du player .
-    =on a réussi à gérer le pas de 0.5, l'erreur venait du game over car les float ne font pas partie du range(nbcol) ou range(nbrow)
-    pour gérer ça, on a mit le int, de façon )à ce que la machine fasse l'approximation
 """
 
 #tiempo
